@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce2f50cc-845c-459b-8610-f574c26e086d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedlist/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/singlelinkedlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/singlelinkedlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/singlelinkedlist_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/singlelinkedlist_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +16,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linkedlist/singlelinkedlist_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="367">
+              <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linkedlist/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="208">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkedlist/singlelinkedlist.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="221" column="25" selection-start-line="221" selection-start-column="25" selection-end-line="221" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!block;n#GetValue#0" />
+                <element signature="n#!!block;n#GetNext#0" />
+                <element signature="n#!!block;n#InsertAfter#0" />
+                <element signature="n#!!block;n#InsertBefor#0" />
+                <element signature="n#!!block;n#InsertToTail#0" />
+                <element signature="n#!!block;n#FindByIndex#0" />
+                <element signature="n#!!block;n#DeleteNode#0" />
+                <element signature="n#!!block;n#Print#0" />
+                <element signature="n#!!block;n#mergeSortedList#0" />
+                <element signature="n#!!block;n#DeleteBottomN#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,9 +68,15 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="D:/go1.14" />
+  <component name="GOROOT" path="D:\go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -43,19 +84,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/linkedlist/readme.md" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/linkedlist/README.md" />
         <option value="$PROJECT_DIR$/linkedlist/singlelinkedlist.go" />
         <option value="$PROJECT_DIR$/linkedlist/singlelinkedlist_test.go" />
-        <option value="$PROJECT_DIR$/linkedlist/readme.md" />
-        <option value="$PROJECT_DIR$/linkedlist/README.md" />
-        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="328" />
-    <option name="y" value="47" />
-    <option name="width" value="1538" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -71,11 +112,6 @@
               <item name="algo-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo-go" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algo-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo-go" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -90,9 +126,10 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jdxd" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Test.TestLinkedList_Reverse in algo-go/linkedlist">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algo-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -116,7 +153,7 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDeleteNode in algo-go/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDeleteBottomN in algo-go/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algo-go" />
       <working_directory value="$PROJECT_DIR$/linkedlist" />
       <framework value="gotest" />
@@ -124,10 +161,10 @@
       <package value="algo-go/linkedlist" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestDeleteNode$" />
+      <pattern value="^TestDeleteBottomN$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFindByIndex in algo-go/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList_Reverse in algo-go/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algo-go" />
       <working_directory value="$PROJECT_DIR$/linkedlist" />
       <framework value="gotest" />
@@ -135,10 +172,10 @@
       <package value="algo-go/linkedlist" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFindByIndex$" />
+      <pattern value="^TestLinkedList_Reverse$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInsertToHead in algo-go/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMergeSortedList in algo-go/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algo-go" />
       <working_directory value="$PROJECT_DIR$/linkedlist" />
       <framework value="gotest" />
@@ -146,10 +183,10 @@
       <package value="algo-go/linkedlist" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInsertToHead$" />
+      <pattern value="^TestMergeSortedList$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInsertToTail in algo-go/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPalindrome1 in algo-go/linkedlist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algo-go" />
       <working_directory value="$PROJECT_DIR$/linkedlist" />
       <framework value="gotest" />
@@ -157,37 +194,49 @@
       <package value="algo-go/linkedlist" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInsertToTail$" />
+      <pattern value="^TestPalindrome1$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLinkedList_Reverse in algo-go/linkedlist" />
+        <item itemvalue="Go Test.TestDeleteBottomN in algo-go/linkedlist" />
+        <item itemvalue="Go Test.TestMergeSortedList in algo-go/linkedlist" />
+        <item itemvalue="Go Test.TestPalindrome1 in algo-go/linkedlist" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.TestDeleteNode in algo-go/linkedlist" />
-        <item itemvalue="Go Test.TestFindByIndex in algo-go/linkedlist" />
-        <item itemvalue="Go Test.TestInsertToHead in algo-go/linkedlist" />
-        <item itemvalue="Go Test.TestInsertToTail in algo-go/linkedlist" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestInsertToHead_in_algo-go_linkedlist - 2020.04.30 at 11h 04m 08s.xml">
-      <configuration name="TestInsertToHead in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPalindrome1_in_algo-go_linkedlist - 2020.05.06 at 13h 51m 30s.xml">
+      <configuration name="TestPalindrome1 in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertToHead_in_algo-go_linkedlist - 2020.04.30 at 11h 04m 52s.xml">
-      <configuration name="TestInsertToHead in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPalindrome1_in_algo-go_linkedlist - 2020.05.06 at 13h 52m 26s.xml">
+      <configuration name="TestPalindrome1 in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertToTail_in_algo-go_linkedlist - 2020.04.30 at 11h 05m 00s.xml">
-      <configuration name="TestInsertToTail in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPalindrome1_in_algo-go_linkedlist - 2020.05.06 at 13h 52m 59s.xml">
+      <configuration name="TestPalindrome1 in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertToHead_in_algo-go_linkedlist - 2020.04.30 at 11h 05m 10s.xml">
-      <configuration name="TestInsertToHead in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPalindrome1_in_algo-go_linkedlist - 2020.05.06 at 13h 53m 47s.xml">
+      <configuration name="TestPalindrome1 in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFindByIndex_in_algo-go_linkedlist - 2020.04.30 at 11h 05m 16s.xml">
-      <configuration name="TestFindByIndex in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPalindrome1_in_algo-go_linkedlist - 2020.05.06 at 13h 53m 56s.xml">
+      <configuration name="TestPalindrome1 in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDeleteNode_in_algo-go_linkedlist - 2020.04.30 at 11h 05m 43s.xml">
-      <configuration name="TestDeleteNode in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPalindrome1_in_algo-go_linkedlist - 2020.05.06 at 13h 54m 08s.xml">
+      <configuration name="TestPalindrome1 in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMergeSortedList_in_algo-go_linkedlist - 2020.05.06 at 14h 14m 19s.xml">
+      <configuration name="TestMergeSortedList in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDeleteBottomN_in_algo-go_linkedlist - 2020.05.06 at 14h 37m 43s.xml">
+      <configuration name="TestDeleteBottomN in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDeleteBottomN_in_algo-go_linkedlist - 2020.05.06 at 14h 38m 17s.xml">
+      <configuration name="TestDeleteBottomN in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLinkedList_Reverse_in_algo-go_linkedlist - 2020.05.06 at 14h 48m 00s.xml">
+      <configuration name="TestLinkedList_Reverse in algo-go/linkedlist" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -201,27 +250,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37527114" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37527114" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,23 +285,6 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/linkedlist/singlelinkedlist.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedlist/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="52">
-            <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/go1.14/src/cmd/README.vendor">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -338,10 +369,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linkedlist/singlelinkedlist.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="221" column="25" selection-start-line="221" selection-start-column="25" selection-end-line="221" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#GetValue#0" />
+            <element signature="n#!!block;n#GetNext#0" />
+            <element signature="n#!!block;n#InsertAfter#0" />
+            <element signature="n#!!block;n#InsertBefor#0" />
+            <element signature="n#!!block;n#InsertToTail#0" />
+            <element signature="n#!!block;n#FindByIndex#0" />
+            <element signature="n#!!block;n#DeleteNode#0" />
+            <element signature="n#!!block;n#Print#0" />
+            <element signature="n#!!block;n#mergeSortedList#0" />
+            <element signature="n#!!block;n#DeleteBottomN#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linkedlist/singlelinkedlist_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="367">
+          <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedlist/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="208">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

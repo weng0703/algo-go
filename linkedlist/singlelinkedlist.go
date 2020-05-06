@@ -135,3 +135,101 @@ func (this *LinkedList) Print() {
 	}
 	fmt.Println(format)
 }
+
+//判断是否回文链表
+//用数组暂存前半段
+func IsPalindrome1(l *LinkedList) bool {
+	lLen := l.length
+	if lLen == 0 {
+		return false
+	}
+	if lLen == 1 {
+		return true
+	}
+	s := make([]string, 0, lLen/2)
+	cur := l.head
+	var i uint = 1
+	for cur.Next != nil {
+		cur = cur.Next
+		if lLen%2 != 0 && i == lLen/2+1 { //链表数为奇数个，跳过中间点
+			i++
+			continue
+		}
+		if i <= lLen/2 {
+			s = append(s, cur.GetValue().(string))
+		} else {
+			if s[lLen-i] != cur.GetValue().(string) {
+				return false
+			}
+		}
+		i++
+	}
+	return true
+}
+
+//合并有序链表
+func MergeSortedList(l1, l2 *LinkedList) *LinkedList {
+	if nil == l1 || nil == l1.head || nil == l1.head.Next {
+		return l2
+	}
+	if nil == l2 || nil == l2.head || nil == l2.head.Next {
+		return l1
+	}
+	l := NewlinkedList()
+	cur := l.head
+	cur1 := l1.head.Next
+	cur2 := l2.head.Next
+	for cur1 != nil && cur2 != nil {
+		if cur1.value.(int) > cur2.value.(int) {
+			cur.Next = cur2
+			cur2 = cur2.Next
+		} else {
+			cur.Next = cur1
+			cur1 = cur1.Next
+		}
+		cur = cur.Next
+	}
+	if nil != cur1 {
+		cur.Next = cur1
+	} else if cur2 != nil {
+		cur.Next = cur2
+	}
+	return l
+}
+
+//删除倒数第n个节点
+func (this *LinkedList) DeleteBottomN(n uint) bool {
+	if nil == this.head || nil == this.head.Next {
+		return false
+	}
+	fast := this.head
+	for i := uint(1); i <= n && fast != nil; i++ {
+		fast = fast.Next
+	}
+	if nil == fast {
+		return false
+	}
+	slow := this.head
+	for nil != fast.Next {
+		slow = slow.Next
+		fast = fast.Next
+	}
+	slow.Next = slow.Next.Next
+	return true
+}
+
+//单链表反转
+func (this *LinkedList) Reverse() {
+	if nil == this.head || nil == this.head.Next || nil == this.head.Next.Next {
+		return
+	}
+	var pre *ListNode = nil
+	cur := this.head.Next
+	for nil != cur {
+		tem := cur.Next
+		cur.Next = pre
+		pre = cur
+		cur = tem
+	}
+	this.head.Next = pre
+}
