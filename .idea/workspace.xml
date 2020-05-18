@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2f50cc-845c-459b-8610-f574c26e086d" name="Default Changelist" comment="链表基本操作">
-      <change afterPath="$PROJECT_DIR$/queue/CircularQueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/N2Sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/N2Sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/queue/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,32 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go.mod">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue/CircularQueue.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/queue/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="78">
-                <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/sort/N2Sort.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/N2Sort_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +84,11 @@
         <option value="$PROJECT_DIR$/queue/QueueBasedOnLinkedList_test.go" />
         <option value="$PROJECT_DIR$/go.mod" />
         <option value="$PROJECT_DIR$/stack/CircularQueue.go" />
-        <option value="$PROJECT_DIR$/queue/CircularQueue.go" />
         <option value="$PROJECT_DIR$/queue/README.md" />
+        <option value="$PROJECT_DIR$/queue/CircularQueue.go" />
+        <option value="$PROJECT_DIR$/sort/BubbleSort.go" />
+        <option value="$PROJECT_DIR$/sort/N2Sort.go" />
+        <option value="$PROJECT_DIR$/sort/N2Sort_test.go" />
       </list>
     </option>
   </component>
@@ -110,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,18 +115,12 @@
             <path>
               <item name="algo-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo-go" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algo-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo-go" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,38 +157,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestListQueue_DeQueue in algo-go/queue">
-    <configuration name="TestArrayQueue_DeQueue in algo-go/queue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSelectionSort in algo-go/sort">
+    <configuration name="TestBubbleSort in algo-go/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algo-go" />
-      <working_directory value="$PROJECT_DIR$/queue" />
+      <working_directory value="$PROJECT_DIR$/sort" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="algo-go/queue" />
+      <package value="algo-go/sort" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArrayQueue_DeQueue$" />
+      <pattern value="^TestBubbleSort$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestArrayQueue_EnQueue in algo-go/queue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInsertionSort in algo-go/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algo-go" />
-      <working_directory value="$PROJECT_DIR$/queue" />
+      <working_directory value="$PROJECT_DIR$/sort" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="algo-go/queue" />
+      <package value="algo-go/sort" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArrayQueue_EnQueue$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestLinkedListStack_Top in algo-go/stack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algo-go" />
-      <working_directory value="$PROJECT_DIR$/stack" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="algo-go/stack" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestLinkedListStack_Top$" />
+      <pattern value="^TestInsertionSort$" />
       <method v="2" />
     </configuration>
     <configuration name="TestListQueue_DeQueue in algo-go/queue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -224,46 +202,57 @@
       <pattern value="^TestListQueue_EnQueue$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestSelectionSort in algo-go/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algo-go" />
+      <working_directory value="$PROJECT_DIR$/sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="algo-go/sort" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSelectionSort$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSelectionSort in algo-go/sort" />
+        <item itemvalue="Go Test.TestInsertionSort in algo-go/sort" />
+        <item itemvalue="Go Test.TestBubbleSort in algo-go/sort" />
         <item itemvalue="Go Test.TestListQueue_DeQueue in algo-go/queue" />
         <item itemvalue="Go Test.TestListQueue_EnQueue in algo-go/queue" />
-        <item itemvalue="Go Test.TestArrayQueue_DeQueue in algo-go/queue" />
-        <item itemvalue="Go Test.TestArrayQueue_EnQueue in algo-go/queue" />
-        <item itemvalue="Go Test.TestLinkedListStack_Top in algo-go/stack" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArrayQueue_EnQueue_in_algo-go_queue - 2020.05.07 at 10h 56m 20s.xml">
-      <configuration name="TestArrayQueue_EnQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInsertionSort_in_algo-go_sort - 2020.05.15 at 14h 04m 57s.xml">
+      <configuration name="TestInsertionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayQueue_EnQueue_in_algo-go_queue - 2020.05.07 at 10h 57m 05s.xml">
-      <configuration name="TestArrayQueue_EnQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInsertionSort_in_algo-go_sort - 2020.05.15 at 14h 13m 47s.xml">
+      <configuration name="TestInsertionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayQueue_EnQueue_in_algo-go_queue - 2020.05.07 at 10h 57m 49s.xml">
-      <configuration name="TestArrayQueue_EnQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInsertionSort_in_algo-go_sort - 2020.05.15 at 14h 17m 45s.xml">
+      <configuration name="TestInsertionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayQueue_EnQueue_in_algo-go_queue - 2020.05.07 at 10h 58m 53s.xml">
-      <configuration name="TestArrayQueue_EnQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInsertionSort_in_algo-go_sort - 2020.05.15 at 14h 23m 30s.xml">
+      <configuration name="TestInsertionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayQueue_EnQueue_in_algo-go_queue - 2020.05.07 at 10h 59m 34s.xml">
-      <configuration name="TestArrayQueue_EnQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInsertionSort_in_algo-go_sort - 2020.05.15 at 14h 37m 10s.xml">
+      <configuration name="TestInsertionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayQueue_EnQueue_in_algo-go_queue - 2020.05.07 at 11h 00m 25s.xml">
-      <configuration name="TestArrayQueue_EnQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInsertionSort_in_algo-go_sort - 2020.05.15 at 14h 38m 23s.xml">
+      <configuration name="TestInsertionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayQueue_EnQueue_in_algo-go_queue - 2020.05.07 at 11h 00m 44s.xml">
-      <configuration name="TestArrayQueue_EnQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInsertionSort_in_algo-go_sort - 2020.05.15 at 14h 38m 51s.xml">
+      <configuration name="TestInsertionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayQueue_DeQueue_in_algo-go_queue - 2020.05.07 at 11h 01m 39s.xml">
-      <configuration name="TestArrayQueue_DeQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInsertionSort_in_algo-go_sort - 2020.05.15 at 14h 39m 14s.xml">
+      <configuration name="TestInsertionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestListQueue_EnQueue_in_algo-go_queue - 2020.05.07 at 11h 23m 23s.xml">
-      <configuration name="TestListQueue_EnQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestInsertionSort_in_algo-go_sort - 2020.05.15 at 14h 41m 45s.xml">
+      <configuration name="TestInsertionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestListQueue_DeQueue_in_algo-go_queue - 2020.05.07 at 11h 23m 34s.xml">
-      <configuration name="TestListQueue_DeQueue in algo-go/queue" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSelectionSort_in_algo-go_sort - 2020.05.15 at 14h 50m 47s.xml">
+      <configuration name="TestSelectionSort in algo-go/sort" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -279,21 +268,21 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21162046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.20607375" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.28741866" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.20607375" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4978678" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.28741866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,7 +297,8 @@
     <MESSAGE value="链表基本操作" />
     <MESSAGE value="栈的基本实现" />
     <MESSAGE value="队列的基本实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="队列的基本实现" />
+    <MESSAGE value="增加环队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加环队列" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -493,24 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go.mod">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/go.sum">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queue/CircularQueue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -526,6 +502,52 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/CircularQueue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="n#!!block;n#NewCircularQueue#0" />
+            <element signature="n#!!block;n#IsEmpty#0" />
+            <element signature="n#!!block;n#IsFull#0" />
+            <element signature="n#!!block;n#EnQueue#0" />
+            <element signature="n#!!block;n#DeQueue#0" />
+            <element signature="n#!!block;n#String#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="829" selection-start-line="829" selection-end-line="829" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/N2Sort_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/N2Sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
         </state>
       </provider>
     </entry>
