@@ -46,3 +46,33 @@ func merge(arr []int, start, mid, end int) {
 	}
 	copy(arr[start:end+1], tempArr)
 }
+
+//快速排序
+func QuickSort(arr []int) {
+	separateSort(arr, 0, len(arr)-1)
+}
+
+func separateSort(arr []int, start, end int) {
+	if start >= end {
+		return
+	}
+	i := partition(arr, start, end)
+	separateSort(arr, start, i-1)
+	separateSort(arr, i+1, end)
+}
+
+//获取分区点
+func partition(arr []int, start, end int) int {
+	pivot := end //选取最后一位当做对比数字
+	i := start
+	for j := start; j < end; j++ {
+		if arr[j] < arr[pivot] {
+			if !(i == j) {
+				arr[j], arr[i] = arr[i], arr[j]
+			}
+			i++
+		}
+	}
+	arr[i], arr[end] = arr[end], arr[i]
+	return i
+}
